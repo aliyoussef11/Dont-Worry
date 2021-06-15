@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfile">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        layout="@layout/content_main_editprofile"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/user"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="2dp"
+        />
+
+    <TextView
+        android:id="@+id/change_profile_btn"
+        android:layout_below="@+id/profile_image"
+        android:text="Change Profile"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="16dp"
+        android:layout_below="@+id/change_profile_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Close"
+            android:textStyle="bold"
+            android:fontFamily="@font/langar"
+            android:textColor="@color/black"
+            android:background="@color/yellow"
+            android:layout_marginRight="6dp"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Save"
+            android:textStyle="bold"
+            android:fontFamily="@font/langar"
+            android:textColor="@color/black"
+            android:background="@color/yellow"
+            android:layout_marginLeft="6dp"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

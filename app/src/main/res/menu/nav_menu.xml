@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="General">
+    <menu>
+        <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/home"
+            />
+
+        <item
+            android:id="@+id/checkChild"
+            android:title="Check Your Child"
+            android:icon="@drawable/check_child"
+            />
+
+        <item
+            android:id="@+id/EditChild"
+            android:title="Edit Your Child"
+            android:icon="@drawable/ic_childedit"
+            />
+        </group>
+        </menu>
+    </item>
+
+    <item android:title="Settings">
+        <menu>
+            <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:title="Update Your Profile"
+            android:icon="@drawable/profile"
+            />
+
+        <item
+            android:id="@+id/changepassword"
+            android:title="Change Your Password"
+            android:icon="@drawable/password"
+            />
+
+        <item
+            android:id="@+id/DeactivateYourAccount"
+            android:title="Deactivate Your Account"
+            android:icon="@drawable/ic_deactivate"
+            />
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="About">
+        <menu>
+            <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/rate"
+            android:title="Rate Us"
+            android:icon="@drawable/rate_us"
+            />
+
+        <item
+            android:id="@+id/about"
+            android:title="@string/aboutus"
+            android:icon="@drawable/about"
+            />
+
+        <item
+            android:id="@+id/logout"
+            android:title="@string/logout"
+            android:icon="@drawable/exitchild"
+            />
+            </group>
+        </menu>
+    </item>
+
+</menu>

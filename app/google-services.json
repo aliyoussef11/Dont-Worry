@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "173969306477",
+    "project_id": "dontworry-fb81f",
+    "storage_bucket": "dontworry-fb81f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173969306477:android:707c30da4a06b3fed52064",
+        "android_client_info": {
+          "package_name": "com.example.dontworry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173969306477-tmloq019s9281vjp2asmmjh38svs3h8q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0a6Y626Y0X55fEtTkAKXkcRlBau92Rck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173969306477-tmloq019s9281vjp2asmmjh38svs3h8q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

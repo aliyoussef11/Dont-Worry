@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_linearlayout">
+
+        <TextView
+            android:id="@+id/randomTextChild"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="50dp"
+            android:textAlignment="center"
+            android:textColor="@color/red"
+            android:fontFamily="@font/garland"
+            android:text="RANDOM"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/ConfirmDeactivationChild"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:ems="10"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="textPersonName"
+        android:backgroundTint="@color/black"
+        android:hint="Try This" />
+
+
+
+    <EditText
+        android:id="@+id/ConfirmUsernameDeactivationChild"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:ems="10"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="textPersonName"
+        android:backgroundTint="@color/black"
+        android:hint="Your Username" />
+
+    <Button
+        android:id="@+id/deactivateChildAccount"
+        android:background="@drawable/custom_button"
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Deactivate"/>
+
+
+</LinearLayout>

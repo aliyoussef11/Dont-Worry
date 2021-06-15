@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="280dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/TextDetectLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start / Stop Detecting Your Location"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="45dp"/>
+
+    <Button
+        android:layout_below="@+id/TextDetectLocation"
+        android:id="@+id/DetectChildLocation"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button"
+        android:text="Start Detecting"
+        />
+
+    <Button
+        android:layout_below="@+id/DetectChildLocation"
+        android:id="@+id/StopDetectChildLocation"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button"
+        android:text="Stop Detecting"
+        />
+
+    </LinearLayout>
+

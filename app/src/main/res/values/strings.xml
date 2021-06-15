@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Don\'t Worry</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="location">Add Location</string>
+    <string name="search">Search</string>
+    <string name="logout">Logout</string>
+    <string name="setting">Settings</string>
+    <string name="aboutus">About Us</string>
+    <string name="about">The main idea of our app is to let parents Check the location of their children. So parents should
+    Login after registration,then they will have the ability to add the child location and save it, also They will add the username Of their child. Child here can start in this app by registering.
+    This app will send Notification to parent if child is still in the same location or not.</string>
+    <string name="about2">User</string>
+    <string name="heading">Find\nYour Child</string>
+    <string name="heading2">We Will Help You To Check Your Child Every time Using Online Services</string>
+    <string name="map_Key" translatable="false">AIzaSyDKo4AkYdf-euSmPLZcKhsxptajeuKnwdA</string>
+    <string name="parentcondition">Enter Your Child Username\n If This Username Is Incorrect \n-> You Cannot Register\n In This App</string>
+    <string name="childwelcome">Welcome Child</string>
+    <string name="version">Version 1.0.0</string>
+    <string name="CheckChildTextView">Start Checking Every 15 min
+        Or Stop Cheking</string>
+    <string name="enter_username">Enter Username</string>
+
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context=".ChildRegistration">
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:elevation="6dp"
+        android:src="@drawable/back"
+        app:fabSize="normal"
+        android:onClick="Back"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <EditText
+            android:id="@+id/UserNameChild"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:inputType="textPersonName"
+            android:hint="User Name"
+            android:backgroundTint="@color/gray"
+    />
+
+    <EditText
+        android:id="@+id/EmailChild"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/gray"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/PasswordChild"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/gray"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textWebPassword"
+        android:layout_marginTop="10dp"
+         />
+
+
+    <EditText
+        android:id="@+id/ConfirmPasswordChild"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/gray"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textWebPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/SignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button"
+        android:text="Sign Up"
+         />
+
+    </LinearLayout>
+
+</LinearLayout>
