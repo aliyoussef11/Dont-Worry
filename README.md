@@ -11,7 +11,7 @@ Location Tracking: Parents can set specific locations for their children, such a
 Real-time Notifications: Parents receive notifications whenever their child arrives at or departs from the specified location. This ensures parents are always informed about their child's movements.
 
 **Installation**
-Clone this repository to your local machine using: git clone https://github.com/aliyoussef11/dont-worry-app.git
+Clone this repository to your local machine using: git clone https://github.com/aliyoussef11/dont-worry.git
 
 **Open the project in Android Studio.**
 **Build and run the app on your Android device or emulator.**
